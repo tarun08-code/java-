@@ -1,0 +1,14 @@
+class 21 ----------------- sep-7-25
+method overriding 
+*same argumet same parameters and everything class ectends and then use super keyword to call parent class method
+*super keyword is used to call parent class method
+*super keyword should be used inside the method
+*super keyword should be the first statement in the method
+*super keyword can be used to call parent class constructor
+
+final key workd
+*final keyword is used to declare constant variable
+*final keyword is used to prevent method overriding
+*final keyword is used to prevent inheritance
+*final keyword is used to prevent method overriding and inheritance
+*final keyword is used to declare constant variable
