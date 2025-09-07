@@ -26,30 +26,26 @@
   */
 
   //try 2 
+class Married {
+    public static void main(String[] args) {
 
-  class married {
-    public static void main (String[] args){
+        String gender = "m";
+        int age = 22;
 
-    String gender = "m";
-    int age = 22;
-    if (gender == "m"){
-      if (age >=21 ){
-        System.out.println("you are eligible for marrige");
-      } else {
-        System.out.println("you are not eligible for marrige");
-      } else if (gender == "f") {
-        if (age>18) {
-          System.out.println("you are eligible for marrige");
+        if (gender.equals("m")) {
+            if (age >= 21) {
+                System.out.println("you are eligible for marriage");
+            } else {
+                System.out.println("you are not eligible for marriage");
+            }
+        } else if (gender.equals("f")) {
+            if (age > 18) {
+                System.out.println("you are eligible for marriage");
+            } else {
+                System.out.println("you are not eligible for marriage");
+            }
         } else {
-          System.out.println("you are  not eligible for marrige");
+            System.out.println("you are different");
         }
-        else {
-          System.out.println("you are differnt ");
-        }
-      }
-
     }
-    }
-
-    }
-  
+}
